@@ -1,7 +1,7 @@
 # practical-exam-1
 July 2021 - Linux Essentials - Practical Exam
 
-Please follow the given instructions carefully, otherwise you risk your answers being marked as wrong. Use the "exam.ova" image under "student workspace/images" in Google Drive
+Please follow the given instructions carefully, otherwise you risk your answers being marked as wrong. Use the "exam.ova" image under "student workspace/images" in Google Drive.  Make good use of VirtualBox snapshots to protect your progress.
 
 ## system configuration - *2 points*
  
@@ -25,7 +25,7 @@ Please follow the given instructions carefully, otherwise you risk your answers 
 ## configure server-class networking - *5 points*
 
 - stop and disable NetworkManager 
-- install network-scripts, and ensure that you are not using DHCP for both network cards 
+- install network-scripts, and set the ip addresses statically for both network cards.
 - configure your current ip address, netmask, and gateway in /etc/sysconfig/network-scripts/ifcfg-enpXsY 
 - enp0s3 is your primary network card and should be set to NAT from Virtualbox. this is the interface where your default gateway should also be configured. enp0s8 is your secondary network card and should be set to 'host-only networking' from Virtualbox. This is where you SSH to (using putty) 
 - ensure that these settings are persistent across reboots 
@@ -148,4 +148,8 @@ Installing:
  wget
 ...
 ```
+                                                                                                 
+                                                                                              
+                                                                                                 
+                                                                                                 - 
                                                                                                  
