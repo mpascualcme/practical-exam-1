@@ -113,7 +113,7 @@ ensure that you have an MX entry poiting to mail.superfly.acme
     
 - inside /root/docker, create a docker file. in the Dockerfie, use httpd:2.4 as the base image and serve the contents of public-html
 - build a docker image, tag it as 'myapp'. select "docker.io/library/httpd:2.4" when prompted during build
-- run an instance of the 'myapp' image. expose the service to port 5566. Ensure that this service is accessible from your laptop browser. Ensure that this docker container is persistent across reboots.
+- run an instance of the 'myapp' image. expose the service to port 5566. Ensure that this service is accessible from your laptop browser. write the 'docker run' command that you used to /root/docker/commands.txt
 
 ## scripting and vim - *5 points*
 - write a script that will download http://www.superfly.acme/fileserver/kdump.conf 10 times, at 30 seconds interval each, saving the file each time to /dev/null
